@@ -24,7 +24,6 @@ const TopSellers = () => {
   const [selectedCategory, setSelectedCategory] = useState("Choose a genre");
 
   const { data: books = [] } = useFetchAllBooksQuery();
-  
 
   // useEffect(() => {
   //   fetch("/books.json") // ✅ Fix: Ensure correct path
